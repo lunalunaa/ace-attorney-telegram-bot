@@ -1,7 +1,7 @@
 # Ace Attorney telegram Bot
  Forked from [this repo](https://github.com/LuisMayo/ace-attorney-telegram-bot), modified submodule
  
- Check also the [Twiitter](https://github.com/LuisMayo/ace-attorney-twitter-bot),[Discord](https://github.com/LuisMayo/ace-attorney-discord-bot) and [Reddit](https://github.com/micah5/ace-attorney-reddit-bot) bots!
+ Check also the [Twitter](https://github.com/LuisMayo/ace-attorney-twitter-bot),[Discord](https://github.com/LuisMayo/ace-attorney-discord-bot) and [Reddit](https://github.com/micah5/ace-attorney-reddit-bot) bots!
  
 ## Getting Started
 
@@ -24,13 +24,13 @@ python -m pip install -r requirements.txt
 python -m pip install -r objection_engine/requirements.txt
 ```
 
-3. Put yout Telegram Token in a `token.txt` file
+3. Put your Telegram Token in a `token.txt` file
 
 4. Start the project
 `python main.py`
 
 #### Note about Linux systems
-In Linux it may be a bit harder to set the enviorenmente properly. More specifically it may be hard to install required codecs.
+In Linux it may be a bit harder to set the environment properly. More specifically it may be hard to install required codecs.
 If having a codec problem (like "couldn't find codec for id 27") you may need to compile ffmpeg and opencv by yourself.
 You should be good using these guides (tested on Ubuntu with success and on Debian without success)
   - [FFMPEG compilation guide](https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu)
