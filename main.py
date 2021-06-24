@@ -43,7 +43,7 @@ def start(update: Update, context: CallbackContext) -> None:
 
 def about_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    update.message.reply_text('Made with ❤ by @TLuigi003.\nSource code in https://github.com/LuisMayo/ace-attorney-telegram-bot\n\nDo you like my work? You could thank me by buying me a [ko-fi](https://ko-fi.com/luismayo)', parse_mode="Markdown")
+    update.message.reply_text('This is a [forked](https://t.me/ace_attorney_court_bot) version [originally](https://github.com/LuisMayo/ace-attorney-telegram-bot) made with ❤ by @TLuigi003\n\My fork adds preliminary Chinese language support', parse_mode="Markdown")
 
 
 def getMessage(update: Update, context: CallbackContext) -> None:
