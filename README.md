@@ -1,5 +1,5 @@
 # Ace Attorney telegram Bot
- Forked from [this repo](https://github.com/LuisMayo/ace-attorney-telegram-bot)
+ Forked from [this repo](https://github.com/LuisMayo/ace-attorney-telegram-bot), modified submodule
  
  Check also the [Twiitter](https://github.com/LuisMayo/ace-attorney-twitter-bot),[Discord](https://github.com/LuisMayo/ace-attorney-discord-bot) and [Reddit](https://github.com/micah5/ace-attorney-reddit-bot) bots!
  
