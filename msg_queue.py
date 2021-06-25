@@ -47,6 +47,6 @@ class Queue:
             print(e)
         for msg in thread:
             try:
-                os.remove(msg.evidence_path)
+                if msg.evidence_path != None: os.remove(msg.evidence_path)
             except Exception as e:
                 print(e)
