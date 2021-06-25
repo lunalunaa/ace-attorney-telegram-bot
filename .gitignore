@@ -127,4 +127,6 @@ dmypy.json
 
 assets/
 
+nohup.out
+
 token.txt
